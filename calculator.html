@@ -8,7 +8,11 @@
   <meta name="CocoaVersion" content="1561.2">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 16.0px Helvetica; color: #003245; -webkit-text-stroke: #003245; background-color: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 16.0px Helvetica; color: #003245; -webkit-text-stroke: #003245}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; background-color: #ffffff}
+    span.s3 {font-kerning: none; -webkit-text-stroke: 0px #000000}
   </style>
 </head>
 <body>
@@ -18,10 +22,14 @@
 <p class="p1"><span class="s1"><i>function cube() {</i></span></p>
 <p class="p1"><span class="s1"><i>var num = document.getElementById("n1");</i></span></p>
 <p class="p1"><span class="s1"><i>num.value = Math.pow(num.value, 3);</i></span></p>
-<p class="p1"><span class="s1"><i>}</i></span></p>
+<p class="p2"><span class="s2"><i>}</i></span></p>
 <p class="p1"><span class="s1"><i>function sin() {</i></span></p>
 <p class="p1"><span class="s1"><i>var num = document.getElementById("n1");</i></span></p>
 <p class="p1"><span class="s1"><i>num.value = sin(num.value);</i></span></p>
+<p class="p3"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"><i>function </i></span><span class="s3"><i>fourthpower</i></span><span class="s1"><i>() {</i></span></p>
+<p class="p1"><span class="s1"><i>var num = document.getElementById("n1");</i></span></p>
+<p class="p2"><span class="s2"><i>num.value = Math.pow(num.value, 4);</i></span></p>
 <p class="p1"><span class="s1"><i>}</i></span></p>
 <p class="p1"><span class="s1"><i>&lt;/script&gt;</i></span></p>
 <p class="p1"><span class="s1"><i>&lt;/head&gt;</i></span></p>
@@ -29,8 +37,9 @@
 <p class="p1"><span class="s1">&lt;h1&gt;Calculadora de Ferran Hoya Pérez&lt;/h1&gt;</span></p>
 <p class="p1"><span class="s1"><i>Number:</i></span></p>
 <p class="p1"><span class="s1"><i>&lt;input type="text" id="n1"&gt;&lt;p&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;button onclick="cube()"&gt; x^3 &lt;/button&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;button onclick=“sin()”&gt; sin(x) &lt;/button&gt;</i></span></p>
+<p class="p2"><span class="s2"><i>&lt;button onclick="cube()"&gt; x^3 &lt;/button&gt;</i></span></p>
+<p class="p2"><span class="s2"><i>&lt;button onclick=“fourthpower()”&gt; x^4 &lt;/button&gt;</i></span></p>
+<p class="p2"><span class="s2"><i>&lt;button onclick=“sin()”&gt; sin(x) &lt;/button&gt;</i></span></p>
 <p class="p1"><span class="s1"><i>&lt;/body&gt;</i></span></p>
 <p class="p1"><span class="s1"><i>&lt;/html&gt;</i></span></p>
 </body>
