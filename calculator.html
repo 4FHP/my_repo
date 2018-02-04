@@ -1,46 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1561.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 16.0px Helvetica; color: #003245; -webkit-text-stroke: #003245; background-color: #ffffff}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 16.0px Helvetica; color: #003245; -webkit-text-stroke: #003245}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; background-color: #ffffff}
-    span.s3 {font-kerning: none; -webkit-text-stroke: 0px #000000}
-  </style>
+<!DOCTYPE html><html><head>
+<title>Calculator</title><meta charset="utf-8">
+<script type="text/javascript">
+function cube() {
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 3);
+}
+function sin() {
+var num = document.getElementById("n1");
+num.value = Math.sin(num.value);
+}
+function fourthpower() {
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 4);
+}
+</script>
 </head>
 <body>
-<p class="p1"><span class="s1"><i>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;title&gt;Calculator&lt;/title&gt;&lt;meta charset="utf-8"&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;script type="text/javascript"&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>function cube() {</i></span></p>
-<p class="p1"><span class="s1"><i>var num = document.getElementById("n1");</i></span></p>
-<p class="p1"><span class="s1"><i>num.value = Math.pow(num.value, 3);</i></span></p>
-<p class="p2"><span class="s2"><i>}</i></span></p>
-<p class="p1"><span class="s1"><i>function sin() {</i></span></p>
-<p class="p1"><span class="s1"><i>var num = document.getElementById("n1");</i></span></p>
-<p class="p1"><span class="s1"><i>num.value = sin(num.value);</i></span></p>
-<p class="p3"><span class="s1">}</span></p>
-<p class="p1"><span class="s1"><i>function </i></span><span class="s3"><i>fourthpower</i></span><span class="s1"><i>() {</i></span></p>
-<p class="p1"><span class="s1"><i>var num = document.getElementById("n1");</i></span></p>
-<p class="p2"><span class="s2"><i>num.value = Math.pow(num.value, 4);</i></span></p>
-<p class="p1"><span class="s1"><i>}</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;/script&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;/head&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;body&gt;</i></span></p>
-<p class="p1"><span class="s1">&lt;h1&gt;Calculadora de Ferran Hoya Pérez&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><i>Number:</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;input type="text" id="n1"&gt;&lt;p&gt;</i></span></p>
-<p class="p2"><span class="s2"><i>&lt;button onclick="cube()"&gt; x^3 &lt;/button&gt;</i></span></p>
-<p class="p2"><span class="s2"><i>&lt;button onclick=“fourthpower()”&gt; x^4 &lt;/button&gt;</i></span></p>
-<p class="p2"><span class="s2"><i>&lt;button onclick=“sin()”&gt; sin(x) &lt;/button&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;/body&gt;</i></span></p>
-<p class="p1"><span class="s1"><i>&lt;/html&gt;</i></span></p>
+<h1>Calculadora de Ferran Hoya Pérez</h1>
+Number:
+<input type="text" id="n1"><p>
+<button onclick="cube()"> x^3 </button>
+<button onclick="fourthpower()"> x^4 </button>
+<button onclick="sin()"> sin(x) </button>
 </body>
 </html>
